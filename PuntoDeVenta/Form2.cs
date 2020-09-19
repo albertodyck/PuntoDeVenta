@@ -21,6 +21,7 @@ namespace PuntoDeVenta
 
         private void FormPuntoDeVenta_Load(object sender, EventArgs e)
         {
+            labelUsuario.Text = "Le atiende: " + Login.nombre; 
             labelPuntoDeVenta.Location = new Point(this.Width/2-(labelPuntoDeVenta.Width/2),0);
             labelFechaHora.Location = new Point((this.Width/2) - (labelFechaHora.Width/2), labelPuntoDeVenta.Height);
             
@@ -140,6 +141,11 @@ namespace PuntoDeVenta
                 labelTotal.Text = "Cambio: $" + (pago - total1);
 
             }
+        }
+
+        private void textBoxCaptura_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
