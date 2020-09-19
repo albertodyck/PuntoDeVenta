@@ -83,6 +83,16 @@ namespace PuntoDeVenta.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_icon_person_add_211872 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_icon-person-add_211872", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap iconfinder_minus_1645995 {
             get {
                 object obj = ResourceManager.GetObject("iconfinder_minus_1645995", resourceCulture);
