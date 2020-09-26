@@ -42,6 +42,9 @@
             this.textBoxCorreo = new System.Windows.Forms.TextBox();
             this.labelCorreo = new System.Windows.Forms.Label();
             this.buttonAgregar = new System.Windows.Forms.Button();
+            this.buttonLimpiar = new System.Windows.Forms.Button();
+            this.buttonEliminar = new System.Windows.Forms.Button();
+            this.buttonActualizar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewUsuarios)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,6 +64,7 @@
             this.dataGridViewUsuarios.ReadOnly = true;
             this.dataGridViewUsuarios.Size = new System.Drawing.Size(736, 150);
             this.dataGridViewUsuarios.TabIndex = 0;
+            this.dataGridViewUsuarios.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewUsuarios_CellClick);
             // 
             // Column1
             // 
@@ -174,11 +178,50 @@
             this.buttonAgregar.UseVisualStyleBackColor = true;
             this.buttonAgregar.Click += new System.EventHandler(this.buttonAgregar_Click);
             // 
+            // buttonLimpiar
+            // 
+            this.buttonLimpiar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonLimpiar.Location = new System.Drawing.Point(554, 311);
+            this.buttonLimpiar.Name = "buttonLimpiar";
+            this.buttonLimpiar.Size = new System.Drawing.Size(89, 84);
+            this.buttonLimpiar.TabIndex = 10;
+            this.buttonLimpiar.Text = "Limpiar";
+            this.buttonLimpiar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.buttonLimpiar.UseVisualStyleBackColor = true;
+            this.buttonLimpiar.Click += new System.EventHandler(this.buttonLimpiar_Click);
+            // 
+            // buttonEliminar
+            // 
+            this.buttonEliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonEliminar.Location = new System.Drawing.Point(443, 314);
+            this.buttonEliminar.Name = "buttonEliminar";
+            this.buttonEliminar.Size = new System.Drawing.Size(89, 84);
+            this.buttonEliminar.TabIndex = 11;
+            this.buttonEliminar.Text = "Eliminar";
+            this.buttonEliminar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.buttonEliminar.UseVisualStyleBackColor = true;
+            this.buttonEliminar.Click += new System.EventHandler(this.buttonEliminar_Click);
+            // 
+            // buttonActualizar
+            // 
+            this.buttonActualizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonActualizar.Location = new System.Drawing.Point(443, 404);
+            this.buttonActualizar.Name = "buttonActualizar";
+            this.buttonActualizar.Size = new System.Drawing.Size(200, 34);
+            this.buttonActualizar.TabIndex = 12;
+            this.buttonActualizar.Text = "Actualizar";
+            this.buttonActualizar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.buttonActualizar.UseVisualStyleBackColor = true;
+            this.buttonActualizar.Click += new System.EventHandler(this.buttonActualizar_Click);
+            // 
             // UserAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonActualizar);
+            this.Controls.Add(this.buttonEliminar);
+            this.Controls.Add(this.buttonLimpiar);
             this.Controls.Add(this.buttonAgregar);
             this.Controls.Add(this.textBoxCorreo);
             this.Controls.Add(this.labelCorreo);
@@ -214,5 +257,8 @@
         private System.Windows.Forms.TextBox textBoxCorreo;
         private System.Windows.Forms.Label labelCorreo;
         private System.Windows.Forms.Button buttonAgregar;
+        private System.Windows.Forms.Button buttonLimpiar;
+        private System.Windows.Forms.Button buttonEliminar;
+        private System.Windows.Forms.Button buttonActualizar;
     }
 }
