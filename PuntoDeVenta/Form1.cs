@@ -78,8 +78,5 @@ namespace PuntoDeVenta
                 textBox.BackColor = Color.LightBlue;
             }
         }
-
-
-
     }
 }
