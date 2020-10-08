@@ -73,6 +73,16 @@ namespace PuntoDeVenta.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_broom_clean_service_labor_website_4622511 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_broom_clean_service_labor_website_4622511", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap iconfinder_free_27_616650 {
             get {
                 object obj = ResourceManager.GetObject("iconfinder_free-27_616650", resourceCulture);
@@ -83,9 +93,29 @@ namespace PuntoDeVenta.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_free_27_616650__3_ {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_free-27_616650 (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap iconfinder_icon_person_add_211872 {
             get {
                 object obj = ResourceManager.GetObject("iconfinder_icon-person-add_211872", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_InterfaceExpendet_01_592600 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_InterfaceExpendet-01_592600", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

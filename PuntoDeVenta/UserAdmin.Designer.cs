@@ -41,10 +41,10 @@
             this.labelContraseña = new System.Windows.Forms.Label();
             this.textBoxCorreo = new System.Windows.Forms.TextBox();
             this.labelCorreo = new System.Windows.Forms.Label();
-            this.buttonAgregar = new System.Windows.Forms.Button();
-            this.buttonLimpiar = new System.Windows.Forms.Button();
-            this.buttonEliminar = new System.Windows.Forms.Button();
             this.buttonActualizar = new System.Windows.Forms.Button();
+            this.buttonEliminar = new System.Windows.Forms.Button();
+            this.buttonLimpiar = new System.Windows.Forms.Button();
+            this.buttonAgregar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewUsuarios)).BeginInit();
             this.SuspendLayout();
             // 
@@ -115,7 +115,6 @@
             this.textBoxNombreUsuario.Name = "textBoxNombreUsuario";
             this.textBoxNombreUsuario.Size = new System.Drawing.Size(416, 26);
             this.textBoxNombreUsuario.TabIndex = 4;
-            this.textBoxNombreUsuario.Text = "Usuario";
             // 
             // labelNombreUsuario
             // 
@@ -134,7 +133,6 @@
             this.textBoxContraseña.Name = "textBoxContraseña";
             this.textBoxContraseña.Size = new System.Drawing.Size(214, 26);
             this.textBoxContraseña.TabIndex = 6;
-            this.textBoxContraseña.Text = "123456";
             // 
             // labelContraseña
             // 
@@ -153,7 +151,6 @@
             this.textBoxCorreo.Name = "textBoxCorreo";
             this.textBoxCorreo.Size = new System.Drawing.Size(214, 26);
             this.textBoxCorreo.TabIndex = 8;
-            this.textBoxCorreo.Text = "usuario@hotmail.com";
             // 
             // labelCorreo
             // 
@@ -165,35 +162,25 @@
             this.labelCorreo.TabIndex = 7;
             this.labelCorreo.Text = "Correo Electronico";
             // 
-            // buttonAgregar
+            // buttonActualizar
             // 
-            this.buttonAgregar.BackgroundImage = global::PuntoDeVenta.Properties.Resources.iconfinder_icon_person_add_211872;
-            this.buttonAgregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.buttonAgregar.Location = new System.Drawing.Point(671, 311);
-            this.buttonAgregar.Name = "buttonAgregar";
-            this.buttonAgregar.Size = new System.Drawing.Size(89, 84);
-            this.buttonAgregar.TabIndex = 9;
-            this.buttonAgregar.Text = "Agregar";
-            this.buttonAgregar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.buttonAgregar.UseVisualStyleBackColor = true;
-            this.buttonAgregar.Click += new System.EventHandler(this.buttonAgregar_Click);
-            // 
-            // buttonLimpiar
-            // 
-            this.buttonLimpiar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.buttonLimpiar.Location = new System.Drawing.Point(554, 311);
-            this.buttonLimpiar.Name = "buttonLimpiar";
-            this.buttonLimpiar.Size = new System.Drawing.Size(89, 84);
-            this.buttonLimpiar.TabIndex = 10;
-            this.buttonLimpiar.Text = "Limpiar";
-            this.buttonLimpiar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.buttonLimpiar.UseVisualStyleBackColor = true;
-            this.buttonLimpiar.Click += new System.EventHandler(this.buttonLimpiar_Click);
+            this.buttonActualizar.BackgroundImage = global::PuntoDeVenta.Properties.Resources.iconfinder_InterfaceExpendet_01_592600;
+            this.buttonActualizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonActualizar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonActualizar.Location = new System.Drawing.Point(443, 404);
+            this.buttonActualizar.Name = "buttonActualizar";
+            this.buttonActualizar.Size = new System.Drawing.Size(200, 34);
+            this.buttonActualizar.TabIndex = 12;
+            this.buttonActualizar.Text = "Actualizar";
+            this.buttonActualizar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonActualizar.UseVisualStyleBackColor = true;
+            this.buttonActualizar.Click += new System.EventHandler(this.buttonActualizar_Click);
             // 
             // buttonEliminar
             // 
+            this.buttonEliminar.BackgroundImage = global::PuntoDeVenta.Properties.Resources.iconfinder_free_27_616650__3_;
             this.buttonEliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.buttonEliminar.Location = new System.Drawing.Point(443, 314);
+            this.buttonEliminar.Location = new System.Drawing.Point(671, 311);
             this.buttonEliminar.Name = "buttonEliminar";
             this.buttonEliminar.Size = new System.Drawing.Size(89, 84);
             this.buttonEliminar.TabIndex = 11;
@@ -202,17 +189,33 @@
             this.buttonEliminar.UseVisualStyleBackColor = true;
             this.buttonEliminar.Click += new System.EventHandler(this.buttonEliminar_Click);
             // 
-            // buttonActualizar
+            // buttonLimpiar
             // 
-            this.buttonActualizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.buttonActualizar.Location = new System.Drawing.Point(443, 404);
-            this.buttonActualizar.Name = "buttonActualizar";
-            this.buttonActualizar.Size = new System.Drawing.Size(200, 34);
-            this.buttonActualizar.TabIndex = 12;
-            this.buttonActualizar.Text = "Actualizar";
-            this.buttonActualizar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.buttonActualizar.UseVisualStyleBackColor = true;
-            this.buttonActualizar.Click += new System.EventHandler(this.buttonActualizar_Click);
+            this.buttonLimpiar.BackgroundImage = global::PuntoDeVenta.Properties.Resources.iconfinder_broom_clean_service_labor_website_4622511;
+            this.buttonLimpiar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonLimpiar.Location = new System.Drawing.Point(554, 311);
+            this.buttonLimpiar.Name = "buttonLimpiar";
+            this.buttonLimpiar.Size = new System.Drawing.Size(89, 84);
+            this.buttonLimpiar.TabIndex = 10;
+            this.buttonLimpiar.Text = "Limpiar";
+            this.buttonLimpiar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.buttonLimpiar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.buttonLimpiar.UseVisualStyleBackColor = true;
+            this.buttonLimpiar.Click += new System.EventHandler(this.buttonLimpiar_Click);
+            // 
+            // buttonAgregar
+            // 
+            this.buttonAgregar.BackgroundImage = global::PuntoDeVenta.Properties.Resources.iconfinder_icon_person_add_211872;
+            this.buttonAgregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonAgregar.Location = new System.Drawing.Point(443, 311);
+            this.buttonAgregar.Name = "buttonAgregar";
+            this.buttonAgregar.Size = new System.Drawing.Size(89, 84);
+            this.buttonAgregar.TabIndex = 9;
+            this.buttonAgregar.Text = "Agregar";
+            this.buttonAgregar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.buttonAgregar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.buttonAgregar.UseVisualStyleBackColor = true;
+            this.buttonAgregar.Click += new System.EventHandler(this.buttonAgregar_Click);
             // 
             // UserAdmin
             // 
@@ -233,7 +236,7 @@
             this.Controls.Add(this.labelUsuarioId);
             this.Controls.Add(this.dataGridViewUsuarios);
             this.Name = "UserAdmin";
-            this.Text = "UserAdmin";
+            this.Text = "Administracion de Usuarios de Punto de Venta";
             this.Load += new System.EventHandler(this.UserAdmin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewUsuarios)).EndInit();
             this.ResumeLayout(false);
